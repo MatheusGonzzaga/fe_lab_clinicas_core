@@ -1,39 +1,34 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Lab Clínicas Core
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+**Flutter Experience**
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white) ![Package](https://img.shields.io/badge/Type-Package-yellow)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+## Visão Geral
 
-## Features
+Este é um package Dart/Flutter que centraliza recursos reutilizáveis para os projetos do ecossistema Lab Clínicas. 
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Inclui temas, widgets compartilhados, constantes, helpers, extensions, cores e integrações comuns.
 
-## Getting started
+## Conteúdo do Package
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- Temas customizados
+- Helpers e utils
+- Widgets reutilizáveis
+- Constantes globais
+- Estilos padronizados
 
-## Usage
+## Tecnologias Utilizadas
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+- Flutter 3.16
+- Dart
+- Arquitetura MVVM (apoio)
+- GetIt / Signals (quando necessário)
 
-```dart
-const like = 'sample';
-```
+## Como Usar
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+1. Adicione a dependência ao seu projeto:
+   ```yaml
+   dependencies:
+     fe_lab_clinicas_core:
+       path: ../fe_lab_clinicas_core
